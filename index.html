@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>🌱 Agro Forte</h1>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero" id="inicio">
+            <h2>Futuro Sustentável no Campo</h2>
+            <p>Produção agrícola com responsabilidade ambiental.</p>
+
+            <button onclick="mostrarMensagem()">
+                Saiba Mais
+            </button>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="cards" id="sobre">
+
+            <div class="card">
+                <h3>🌿 Agricultura Sustentável</h3>
+                <p>
+                    Técnicas modernas ajudam a preservar o meio ambiente.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Economia de Água</h3>
+                <p>
+                    Sistemas inteligentes evitam desperdícios.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>☀ Energia Limpa</h3>
+                <p>
+                    Uso de energia solar no campo.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="contador" id="sustentabilidade">
+            <h2>Impacto Sustentável</h2>
+
+            <div class="numero" id="numero">0</div>
+
+            <button onclick="contarArvores()">
+                Plantar Árvores
+            </button>
+        </section>
+
+        <section class="galeria">
+            <h2>Galeria do Campo</h2>
+
+            <div class="imagens">
+                <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop" alt="Plantação">
+
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop" alt="Natureza">
+
+                <img src="https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?q=80&w=1200&auto=format&fit=crop" alt="Agricultura">
+            </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2>Contato</h2>
+
+            <form id="formulario">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Agro Forte - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
